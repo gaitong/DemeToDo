@@ -145,9 +145,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainProductService\MainProductService.cs" />
+    <Compile Include="MainProductService\ProductService.cs" />
     <Compile Include="MainTaskService\MainTaskService.cs" />
     <Compile Include="MainTaskService\SubTaskService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="USERService\UserProductService.cs" />
+    <Compile Include="USERService\USERService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="web.config" />
